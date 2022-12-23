@@ -11,8 +11,8 @@ from send import SendAdmin
 from rest_and_partn import Restaurants
 
 import programs
-
-bot = telebot.TeleBot('5559006179:AAFyvBuiO7sPqEWB9yxbAM26cQ2yQvwIAng')
+token = 'Тут нужно ввести токен'
+bot = telebot.TeleBot(token)
 
 db = Database('database.db')
 send = SendAdmin()
